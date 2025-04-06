@@ -3,6 +3,10 @@
 This is the implementation of our paper:
 <h3 align="center">FreeForm-Prior: Parametric-Guided Model-Free 3D Human Mesh Reconstruction</h3>
 
+## TODO :white_check_mark:
+
+- [x] Provide the training weights.
+      
 1. Install dependences. This project is developed using >= python 3.8 on Ubuntu 16.04. NVIDIA GPUs are needed. We recommend you to use an [Anaconda](https://www.anaconda.com/) virtual environment.
 
   ```bash

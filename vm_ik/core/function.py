@@ -63,7 +63,7 @@ class Simple3DMeshTester:
 
                     gt_pose, gt_mesh = meta['joint_cam'].cuda(), meta['mesh_cam'].cuda()
 
-                    _, pred_uvd_pose, _, confidence, pred_mesh, _, _ = self.model(imgs, inv_trans, intrinsic_param, gt_pose_root, depth_factor, flip_mask=None, is_train=False)
+                    _, pred_uvd_pose, _, confidence, pred_mesh, _, _,_,_ = self.model(imgs, inv_trans, intrinsic_param, gt_pose_root, depth_factor, flip_mask=None, is_train=False)
 
                     results['gt_pose'].append(gt_pose.detach().cpu().numpy())
                     results['gt_mesh'].append(gt_mesh.detach().cpu().numpy())
@@ -74,7 +74,7 @@ class Simple3DMeshTester:
                     else:
                         imgs_flip = flip_img(imgs.clone())
 
-                    _, _, _, _, pred_mesh_flip, _, _ = self.model(imgs_flip, inv_trans, intrinsic_param, gt_pose_root, depth_factor, flip_item=(pred_uvd_pose, confidence), flip_output=True, flip_mask=None, is_train=False)
+                    _, _, _, _, pred_mesh_flip, _, _,_,_ = self.model(imgs_flip, inv_trans, intrinsic_param, gt_pose_root, depth_factor, flip_item=(pred_uvd_pose, confidence), flip_output=True, flip_mask=None, is_train=False)
 
                     pred_pose_flip = torch.cat((torch.matmul(self.J_regressor, pred_mesh_flip), torch.matmul(self.vm_B.T[None], pred_mesh_flip[:, self.selected_indices])), dim=1)
 

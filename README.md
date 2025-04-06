@@ -18,8 +18,8 @@ This is the implementation of our paper:
     pip install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 
     # 3. Pull our code.
-    git clone https://github.com/ShirleyMaxx/VirtualMarker.git
-    cd VirtualMarker
+    git clone https://github.com/ling-wuzmy/FreeForm-Prior
+    cd FreeForm-Prior
 
     # 4. Install other packages. This project doesn't have any special or difficult-to-install dependencies.
     sh requirements.sh
@@ -63,8 +63,8 @@ This is the implementation of our paper:
 
 1. **Installation.** Make sure you have finished the above installation successfully. VirtualMarker does not detect person and only estimates relative pose and mesh, therefore please also install [VirtualPose](https://github.com/wkom/VirtualPose) following its instructions. VirtualPose will detect all the person and estimate their root depths. .
   ```bash
-  git clone https://github.com/ling-wuzmy/FreeForm-Prior
-  cd FreeForm-Prior
+  git clone https://github.com/wkom/VirtualPose.git
+  cd VirtualPose
   python setup.py develop
   ```
 

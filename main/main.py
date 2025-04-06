@@ -8,7 +8,7 @@ import scipy.sparse as ssp
 
 from vm_ik.utils.funcs_utils import save_checkpoint, check_data_pararell
 from vm_ik.core.config import cfg, update_config, init_experiment_dir
-from vm_ik.core.function import Simple3DMeshTrainer, Simple3DMeshTester
+from vm_ik.core.function import Simple3DMeshTester
 from vm_ik.core.function import Simple3DMeshPostTester
 
 def parse_args():

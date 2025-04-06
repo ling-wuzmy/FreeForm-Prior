@@ -20,7 +20,7 @@ This is the implementation of our paper:
     # 4. Install other packages. This project doesn't have any special or difficult-to-install dependencies.
     sh requirements.sh
 
-    #5. Install Virtual Marker
+    #5. Install vm_ik
     python setup.py develop
   ```
 2. Prepare SMPL layer. We use [smplx](https://github.com/vchoutas/smplx#installation).
@@ -46,7 +46,7 @@ This is the implementation of our paper:
     `── requirements.sh
   ```
 
-  - `assets` contains the body virtual markers in `npz` format. Feel free to use them.
+  - `assets` contains the body vm_ik in `npz` format. Feel free to use them.
   - `command` contains the running scripts.
   - `configs` contains the configurations in `yml` format.
   - `data` contains soft links to images and annotations directories.

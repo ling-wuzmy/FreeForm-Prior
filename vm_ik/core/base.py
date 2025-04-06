@@ -15,7 +15,6 @@ from termcolor import colored
 from vm_ik.dataset import *
 import vm_ik.models as models
 from vm_ik.dataset.multiple_datasets import MultipleDatasets
-from vm_ik.core.loss import get_loss
 from vm_ik.core.config import cfg
 from vm_ik.utils.funcs_utils import get_optimizer, load_checkpoint, count_parameters
 

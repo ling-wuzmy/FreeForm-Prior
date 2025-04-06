@@ -92,9 +92,9 @@ def get_version():
 if __name__ == '__main__':
     write_version_py()
     setup(
-        name='virtualmarker',
+        name='vm_ik',
         version=get_version(),
-        description='Code for VirtualMarker',
+        description='Code for vm_ik',
         long_description=readme(),
         keywords='Computer Vision, 3D Human Mesh Estimation',
         packages=find_packages(exclude=('data', 'experiment', 'models')),

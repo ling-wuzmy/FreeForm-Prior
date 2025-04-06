@@ -101,9 +101,6 @@ ${Project}
     |-- PW3D
     |   |-- annotations
     |   `-- images
-    |-- SURREAL
-    |   |-- annotations
-    |   `-- images
     |-- Up_3D
     |   |-- annotations
     |   `-- images

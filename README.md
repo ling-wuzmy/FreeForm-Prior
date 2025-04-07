@@ -61,7 +61,7 @@ This is the implementation of our paper:
 
 ## Quick demo :star:
 
-1. **Installation.** Make sure you have finished the above installation successfully. VirtualMarker does not detect person and only estimates relative pose and mesh, therefore please also install [VirtualPose](https://github.com/wkom/VirtualPose) following its instructions. VirtualPose will detect all the person and estimate their root depths. .
+1. **Installation.** Make sure you have finished the above installation successfully. vm_ik does not detect person and only estimates relative pose and mesh, therefore please also install [VirtualPose](https://github.com/wkom/VirtualPose) following its instructions. VirtualPose will detect all the person and estimate their root depths. .
   ```bash
   git clone https://github.com/wkom/VirtualPose.git
   cd VirtualPose

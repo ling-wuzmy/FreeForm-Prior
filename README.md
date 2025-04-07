@@ -131,4 +131,4 @@ sh command/simple3dmesh_test/test_pw3d.sh
 
 
 ## Acknowledgement
-This repo is built on the excellent work [GraphCMR](https://github.com/nkolot/GraphCMR), [SPIN](https://github.com/nkolot/SPIN), [Pose2Mesh](https://github.com/hongsukchoi/Pose2Mesh_RELEASE), [HybrIK](https://github.com/Jeff-sjtu/HybrIK) and [CLIFF](https://github.com/haofanwang/CLIFF) and [VitualMarker](https://github.com/ShirleyMaxx/VirtualMarker). Thanks for these great projects.
+This repo is built on the excellent work [GraphCMR](https://github.com/nkolot/GraphCMR), [SPIN](https://github.com/nkolot/SPIN), [Pose2Mesh](https://github.com/hongsukchoi/Pose2Mesh_RELEASE), [HybrIK](https://github.com/Jeff-sjtu/HybrIK), [CLIFF](https://github.com/haofanwang/CLIFF) and [VitualMarker](https://github.com/ShirleyMaxx/VirtualMarker). Thanks for these great projects.

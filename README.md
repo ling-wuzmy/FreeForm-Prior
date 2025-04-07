@@ -50,7 +50,7 @@ This is the implementation of our paper:
     `── requirements.sh
   ```
 
-  - `assets` contains the body vm_ik in `npz` format. Feel free to use them.
+  - `assets` contains the body virtual markers in `npz` format. Feel free to use them.
   - `command` contains the running scripts.
   - `configs` contains the configurations in `yml` format.
   - `data` contains soft links to images and annotations directories.
